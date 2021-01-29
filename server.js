@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
 app.get("/", function(req,res){
-    res.send(`Hello World dari jaygeehroku wkwkwk API on port:${PORT}`);
+    res.send(`Hello World dari jaygeehroku API on port:${PORT}`);
 })
 app.listen(PORT, () => {
     console.log(`server running on port:${PORT}`);
