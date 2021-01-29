@@ -11,7 +11,7 @@ app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb',extended:false}));
 
 app.get("/", function(req,res){
-    res.send(`Hello World dari armyali.com API ${process.env.TEST} on port:${PORT}`);
+    res.send(`Hello World dari armyali.com API on port:${PORT}`);
 })
 app.listen(PORT, () => {
     console.log(`server running on port:${PORT}`);
