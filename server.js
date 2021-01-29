@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded());
 app.get("/", function(req,res){
     res.send(`Hello World dari jaygeehroku API on port:${PORT}`);
 })
-app.get("/test", function(req,res){
+app.get("/testdev2", function(req,res){
     res.send(`test page dari jaygeehroku API`);
 })
 app.listen(PORT, () => {
