@@ -1,8 +1,8 @@
 {
-  "name": "mysqlv1",
+  "name": "jaygeehrokudev",
   "version": "1.0.0",
-  "description": "ini api mysql transdeal",
-  "main": "index.js",
+  "description": "ini api jaygeehrokudev",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server",
     "dev": "nodemon server"
