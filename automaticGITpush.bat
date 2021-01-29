@@ -1,3 +1,3 @@
 git add ./
-git commit -m "anbya update at `date +'%Y-%m-%d %H:%M:%S'`"
+git commit -m "anbya update at `date`"
 git push

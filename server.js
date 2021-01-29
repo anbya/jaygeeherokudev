@@ -14,7 +14,7 @@ app.get("/", function(req,res){
     res.send(`Hello World dari jaygeehroku API on port:${PORT}`);
 })
 app.get("/test", function(req,res){
-    res.send(`test page dari jaygeehroku API on port:${PORT}`);
+    res.send(`test page dari jaygeehroku API`);
 })
 app.listen(PORT, () => {
     console.log(`server running on port:${PORT}`);
